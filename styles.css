@@ -1,0 +1,109 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.intro, .footer
+{
+    background-color: #1F2937;
+}
+
+.intro
+{
+    height: 500px;
+}
+
+.logo
+{
+    font-size: 24px;
+}
+
+a, .sec, .placeholder1
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main
+{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.main, .logo
+{
+    color: #F9FAF8
+}
+
+.button1, .button2, .call
+{
+    background-color: #3882F6
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.links
+{
+    display: flex;
+    gap: 24px;
+}
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.placeholder1
+{
+    display: flex;
+    padding: 25px;
+    height: 100px;
+    width: 400px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.text
+{
+    width: 400px;
+}
+
+.quote
+{
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.q
+{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    width: 750px;
+}
+
+.by
+{
+    margin-left: 405px;
+}
