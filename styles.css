@@ -12,7 +12,7 @@ body
 
 .intro
 {
-    height: 500px;
+    height: 450px;
 }
 
 .logo
@@ -45,9 +45,10 @@ a, .sec, .placeholder1
 .header
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    gap: 630px;
 }
 
 a
@@ -66,15 +67,15 @@ a
 {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 200px;
 }
 
 .placeholder1
 {
     display: flex;
     padding: 25px;
-    height: 100px;
-    width: 400px;
+    height: 200px;
+    width: 500px;
     background-color: grey;
     justify-content: center;
     align-items: center;
@@ -107,3 +108,15 @@ a
 {
     margin-left: 405px;
 }
+
+.button1 
+{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 150px;
+}
+
+
