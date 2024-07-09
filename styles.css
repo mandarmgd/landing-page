@@ -115,11 +115,13 @@ a {
 }
 
 .placeholder2 {
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     border: 5px solid #3882F6;
     border-radius: 16px;
     background: white;
+    margin: 0;
+    padding: 0;
 }
 
 .ill {
@@ -136,9 +138,12 @@ a {
 
 .subtext {
     width: 140px;
+    display: flex;
     text-align: center;
-    margin: auto;
+    align-items: center;
     margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
