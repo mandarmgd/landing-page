@@ -1,49 +1,40 @@
-body
-{
+body {
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
-.intro, .footer
-{
+.intro, .footer {
     background-color: #1F2937;
 }
 
-.intro
-{
+.intro {
     height: 450px;
 }
 
-.logo
-{
+.logo {
     font-size: 24px;
 }
 
-a, .sec, .placeholder1
-{
+a, .sec, .placeholder1 {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.main
-{
+.main {
     font-size: 48px;
     font-weight: bolder;
 }
 
-.main, .logo
-{
+.main, .logo {
     color: #F9FAF8
 }
 
-.button1, .button2, .call
-{
+.button1, .button2, .call {
     background-color: #3882F6
 }
 
-.header
-{
+.header {
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -51,43 +42,37 @@ a, .sec, .placeholder1
     gap: 630px;
 }
 
-a
-{
+a {
     text-decoration: none;
     color: white;
 }
 
-.links
-{
+.links {
     display: flex;
     gap: 24px;
 }
 
-.content
-{
+.content {
     display: flex;
     justify-content: center;
     gap: 200px;
 }
 
-.placeholder1
-{
+.placeholder1 {
     display: flex;
     padding: 25px;
     height: 200px;
     width: 500px;
-    background-color: grey;
+    background: grey;
     justify-content: center;
     align-items: center;
 }
 
-.text
-{
+.text {
     width: 400px;
 }
 
-.quote
-{
+.quote {
     background-color: #E5E7EB;
     height: 300px;
     display: flex;
@@ -96,21 +81,18 @@ a
     align-items: center;
 }
 
-.q
-{
+.q {
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
     width: 750px;
 }
 
-.by
-{
+.by {
     margin-left: 405px;
 }
 
-.button1 
-{
+.button1 {
     color: white;
     font-weight: bold;
     padding: 10px;
@@ -118,5 +100,51 @@ a
     border-radius: 8px;
     width: 150px;
 }
+
+.info {
+    height: 400px;
+}
+
+.infoheader {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.placeholder2 {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+    background: white;
+}
+
+.ill {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.subtext {
+    width: 140px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+
+
+
+
 
 
